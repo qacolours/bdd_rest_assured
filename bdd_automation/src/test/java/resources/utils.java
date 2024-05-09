@@ -54,7 +54,7 @@ public class utils {
 	public String getGlobalValue(String key) throws Exception {
 		
 		Properties oProp = new Properties();
-		FileInputStream oFis = new FileInputStream("C:\\learning\\automation_with_bdd\\bdd_automation\\src\\test\\java\\resources\\global.properties");
+		FileInputStream oFis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\resources\\global.properties");
 		oProp.load(oFis);
 		
 		String val = oProp.getProperty(key);

@@ -27,11 +27,11 @@ Body:
     "language": "French-IN"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e7b1c69571fecbf885a9511827f7dda7
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2780a8b9b9692b3d9bd44620570fb245
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=e7b1c69571fecbf885a9511827f7dda7
+				place_id=2780a8b9b9692b3d9bd44620570fb245
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -52,5 +52,5 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "e7b1c69571fecbf885a9511827f7dda7"
+    "place_id": "2780a8b9b9692b3d9bd44620570fb245"
 }
